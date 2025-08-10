@@ -13,10 +13,10 @@ const Main = () => {
 	return (
 		<MainWrapper className='mt-[59px] relative'>
 			<div className='max-w-[516px]'>
-				<h1 className='text-center md:text-left font-mono text-[1.5625rem] md:text-[2.1875rem] font-[700] leading-normal'>
+				<h1 className='text-center md:text-left font-mono text-[1.5625rem] md:text-[2.1875rem] font-[700] leading-tight'>
 					Want to Turn Social Media Into a Profitable Career?
 				</h1>
-				<h2 className='text-center md:text-left font-mono text-[1.5625rem] md:text-[2.1875rem] font-[700] text-primary text-cherry-shadow leading-normal'>
+				<h2 className='text-center md:text-left font-mono text-[1.5625rem] md:text-[2.1875rem] font-[700] text-primary text-cherry-shadow leading-tight pr-20'>
 					Discover your way to success with Fametonic:
 				</h2>
 				<ul className='mt-4 space-y-[13px] max-w-[474px]'>
