@@ -8,10 +8,10 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Urbanist', 'sans-serif'],
-				mono: ['Figtree', 'monospace'],
+				sans: ['Figtree', 'sans-serif'],
+				mono: ['Urbanist', 'monospace'],
 			},
-			backgroundImage: {
+			background: {
 				'gradient-primary': 'var(--gradient-primary)',
 			},
 		},
