@@ -7,7 +7,7 @@ const MainWrapper: React.FC<{
 	className?: ClassNameValue;
 }> = ({ children, className }) => {
 	return (
-		<div className={cn('w-full px-5 lg:px-0 lg:max-w-[1010px] mx-auto', className)}>
+		<div className={cn('w-full px-5 lg:max-w-[1050px] mx-auto', className)}>
 			{children}
 		</div>
 	);

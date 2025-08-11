@@ -1,11 +1,15 @@
+import { cn } from '@/lib/utils';
 import { ChevronRight } from 'lucide-react';
 import React from 'react';
+import { ClassNameValue } from 'tailwind-merge';
 
-const MainCallToAction = () => {
+const MainCallToAction: React.FC<{
+	className?: ClassNameValue;
+}> = ({ className }) => {
 	return (
-		<div className='my-[30px]'>
-			<div className='w-fit space-y-[10px]'>
-				<button className='bg-accent py-2 px-10 rounded-[10px] blue-glow border-0 border-transparent cursor-pointer hover:scale-[1.05] transition-all duration-300 ease-in-out'>
+		<div className={cn('my-[32px] md:my-[30px] w-full', className)}>
+			<div className='w-full md:w-fit space-y-[10px] '>
+				<button className='w-full md:w-fit bg-accent py-2 px-10 rounded-[10px] blue-glow border-0 border-transparent cursor-pointer hover:scale-[1.05] transition-all duration-300 ease-in-out'>
 					<div className='flex gap-[10px] items-center justify-center px-10 text-[1.25rem] font-[700]'>
 						<p>GET STARTED</p>
 						<ChevronRight />

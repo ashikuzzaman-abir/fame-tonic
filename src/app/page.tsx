@@ -8,11 +8,10 @@ import Link from 'next/link';
 
 export default function Home() {
 	return (
-		<div className='font-sans bg-background text-foreground'>
+		<div className='font-sans bg-background text-foreground min-h-screen'>
 			<TopBar />
 			<Navbar />
 			<Main />
-			<Footer />
 		</div>
 	);
 }
