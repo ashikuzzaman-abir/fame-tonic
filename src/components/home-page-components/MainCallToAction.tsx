@@ -9,7 +9,7 @@ const MainCallToAction: React.FC<{
 	return (
 		<div className={cn('my-[32px] md:my-[30px] w-full', className)}>
 			<div className='w-full md:w-fit space-y-[10px] '>
-				<button className='w-full md:w-fit bg-accent py-2 px-10 rounded-[10px] blue-glow border-0 border-transparent cursor-pointer hover:scale-[1.05] transition-all duration-300 ease-in-out'>
+				<button className='w-full md:w-fit bg-accent py-2 px-10 rounded-[10px] blue-glow border-0 border-transparent cursor-pointer'>
 					<div className='flex gap-[10px] items-center justify-center px-10 text-[1.25rem] font-[700]'>
 						<p>GET STARTED</p>
 						<ChevronRight/>
