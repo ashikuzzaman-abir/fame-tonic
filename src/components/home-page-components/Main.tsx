@@ -16,8 +16,8 @@ const Main = () => {
 		<div className='w-full overflow-hidden relative flex flex-col'>
 			<MainWrapper className='-mt-20 md:mt-[57px] order-2 relative'>
 				{/* HERO IMAGE for desktop - moved outside text container */}
-				<div className='hidden md:block absolute -top-38 left-[420px] z-0'>
-					<div className='relative w-[390px] h-auto aspect-[666/729] md:w-[666px]'>
+				<div className='hidden md:block absolute -top-[212px] left-[412px] z-0'>
+					<div className='relative w-[390px] h-auto aspect-[666/869] md:w-[666px]'>
 						<Image src='/assets/hero-main.png' alt='Hero Image' fill priority />
 					</div>
 				</div>
@@ -51,8 +51,8 @@ const Main = () => {
 			</MainWrapper>
 
 			{/* HERO IMAGE for mobile */}
-			<div className='block md:hidden order-1 relative z-10'>
-				<div className='relative mx-auto w-[390px] h-auto aspect-[666/679]'>
+			<div className='block md:hidden -mt-20 order-1 relative z-10'>
+				<div className='relative mx-auto w-[390px] h-auto aspect-[666/869]'>
 					<Image src='/assets/hero-main.png' alt='Hero Image' fill priority />
 				</div>
 			</div>
