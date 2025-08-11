@@ -14,7 +14,7 @@ const ways = [
 const Main = () => {
 	return (
 		<div className='w-full overflow-hidden relative flex flex-col'>
-			<MainWrapper className='-mt-20 md:mt-[57px] order-2 relative'>
+			<MainWrapper className='-mt-20 md:mt-[57px] order-2 relative mb-0 md:mb-20'>
 				{/* HERO IMAGE for desktop - moved outside text container */}
 				<div className='hidden md:block absolute -top-[212px] left-[412px] z-0'>
 					<div className='relative w-[390px] h-auto aspect-[666/869] md:w-[666px]'>
@@ -52,7 +52,7 @@ const Main = () => {
 
 			{/* HERO IMAGE for mobile */}
 			<div className='block md:hidden -mt-20 order-1 relative z-10'>
-				<div className='relative mx-auto w-[390px] h-auto aspect-[666/869]'>
+				<div className='relative mx-auto w-[320px] h-auto aspect-[666/869]'>
 					<Image src='/assets/hero-main.png' alt='Hero Image' fill priority />
 				</div>
 			</div>
